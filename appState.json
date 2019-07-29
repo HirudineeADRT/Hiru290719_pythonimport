@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fbab39af-5996-4a3a-9992-4aa5f7fec397": {
+        "id": "fbab39af-5996-4a3a-9992-4aa5f7fec397",
+        "parent": null,
+        "name": "Hiru290719_pythonimport",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9ca6b9a9-8a23-4446-897f-50a4efb46ef5",
+          "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0",
+          "099a79e8-f56d-4c15-a27a-50c467f31f8a"
+        ],
+        "isRemovable": false,
+        "filePath": "Hiru290719_pythonimport"
+      },
+      "9ca6b9a9-8a23-4446-897f-50a4efb46ef5": {
+        "id": "9ca6b9a9-8a23-4446-897f-50a4efb46ef5",
+        "parent": "fbab39af-5996-4a3a-9992-4aa5f7fec397",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Hiru290719_pythonimport/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0": {
+        "id": "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0",
+        "parent": "fbab39af-5996-4a3a-9992-4aa5f7fec397",
+        "name": "pythonimport.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Hiru290719_pythonimport/pythonimport.py",
+        "code": "import matplotlib\ndef handler(event, context):\n    \n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python3.6",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "099a79e8-f56d-4c15-a27a-50c467f31f8a": {
+        "id": "099a79e8-f56d-4c15-a27a-50c467f31f8a",
+        "parent": "fbab39af-5996-4a3a-9992-4aa5f7fec397",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Hiru290719_pythonimport/__init__.py",
+        "code": ""
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "fbab39af-5996-4a3a-9992-4aa5f7fec397",
+    "openFiles": [
+      "9ca6b9a9-8a23-4446-897f-50a4efb46ef5",
+      "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0"
+    ],
+    "currentFileId": "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "c13001f2-f973-4fd6-b7ed-6d8c8acae4a0",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/Hiru290719_pythonimport",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "matplotlib": {
+          "name": "matplotlib",
+          "version": "3.1.1",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Hiru290719_pythonimport",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564382394742
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Hiru290719_pythonimport",
+      "url": "https://github.com/HirudineeADRT/Hiru290719_pythonimport",
+      "branches": []
+    }
+  }
+}
